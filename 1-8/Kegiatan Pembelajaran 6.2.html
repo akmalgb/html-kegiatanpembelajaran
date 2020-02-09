@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <font face="calibri" color="black">
+    <head>
+        <title>Membuat Tabel Part 3(rowspan)</title>
+    </head>
+    <body>
+        <!--Membuat Tabel Dengan Rowspan-->
+       <h3>Materi RPL</h3>
+       <table width="40%" border="1" cellpadding="5px" style="border-collapse:collapse;">
+        <!--width = "50%" adalah berikan spasize tabel yang berukuran 50 dari lebar layar cellpadding digunakan untuk 
+            memce antara border cell dan teks didalamnya border-collapse digunakan untuk 
+            menyatukan border antar cell-->
+           <thead>
+               <tr>
+                   <th width="20%">Nama Mapel</th>
+                    <!--kolom ini berukuran 30% dari ukuran tabel-->
+                   <th width="50%">Materi</th>
+                   <!--kolom ini berukuran 70% dari ukuran tabel-->
+               </tr>
+           </thead>
+           <tbody>
+               <!--Data Pemrograman Dasar-->
+               <tr>
+                   <td rowspan="4">Pemrograman Dasar</td>
+                   <td>Flowchart</td>
+               </tr>
+               <tr>
+                   <td>Variabel dan Tipe Data</td>
+               </tr>
+               <tr>
+                   <td>Looping</td>
+               </tr>
+               <tr>
+                   <td>Array</td>
+               </tr>
+               <!--Data Basis Data-->
+               <tr>
+                   <td rowspan="3">Basis Data</td>
+                   <td>Data Manipulation Language</td>
+               </tr>
+               <tr>
+                   <td>Data Definition Language</td>
+               </tr>
+               <tr>
+                   <td>Entity Relationship Language</td>
+               </tr>
+               
+           </tbody>
+       </table>
+    </body>
+</font>
+</html>
